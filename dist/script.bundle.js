@@ -113,7 +113,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "d56159326c5b086df3b9";
+/******/ 	var hotCurrentHash = "3958928a2479f08b2834";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1289,7 +1289,7 @@ var render = function() {
         [
           _c("v-row", { attrs: { justify: "center" } }, [
             _c("img", {
-              attrs: { src: "https://i.imgur.com/G29DAAq.png", width: "400" }
+              attrs: { src: "https://i.imgur.com/G29DAAq.png", width: "80%" }
             })
           ])
         ],
