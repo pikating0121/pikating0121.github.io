@@ -113,7 +113,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "d7c5a323336389af887a";
+/******/ 	var hotCurrentHash = "d09214eb2d70b2498640";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1289,8 +1289,12 @@ var render = function() {
         [
           _c("v-row", { attrs: { justify: "center" } }, [
             _c("img", {
-              staticStyle: { "max-width": "400px" },
-              attrs: { src: "https://i.imgur.com/G29DAAq.png", width: "80%" }
+              staticStyle: {
+                width: "80%",
+                height: "auto",
+                "max-width": "400px"
+              },
+              attrs: { src: "https://i.imgur.com/G29DAAq.png" }
             })
           ])
         ],
