@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC);
+@import url(https://fonts.googleapis.com/css?family=Loved+by+the+King);
+
+h1[data-v-20abea0b], h2[data-v-20abea0b], h3[data-v-20abea0b], h4[data-v-20abea0b], font[data-v-20abea0b], span[data-v-20abea0b] {
+        font-family: 'Noto Sans TC';
+}
+
+
+h1[data-v-1204c055], h2[data-v-1204c055], h3[data-v-1204c055], h4[data-v-1204c055], font[data-v-1204c055], span[data-v-1204c055] {
+        font-family: 'Noto Sans TC';
+}
+
+
+body[data-v-06e768c5],html[data-v-06e768c5] {
+background:#FAFAFA;
+height:100%;
+font-family: 'Loved by the King', cursive;
+}
+div[data-v-06e768c5], ul[data-v-06e768c5], span[data-v-06e768c5]{
+	display: block; position: absolute;
+	margin: auto; padding: 0;
+	top: 0; bottom: 0; right: 0; left: 0;
+}
+.brown[data-v-06e768c5] { background-color: #452211;}
+.yellow[data-v-06e768c5] { background-color: #ffd814}
+.yellow-dark[data-v-06e768c5] { background-color: #e0a100}
+.wrapper[data-v-06e768c5] {
+	height: 450px;
+	width: 300px;
+}
+h2[data-v-06e768c5] {
+	text-transform: uppercase;
+	text-align: center; 
+	font-size: 1.5em;
+	color: #452211;
+}
+.pikachu[data-v-06e768c5]{
+top: auto; 
+height: 65%;
+width: 140px;
+}
+.pikachu[data-v-06e768c5]::before {
+position: absolute;
+	content: '';
+	background: rgba(0,0,0,0.15);
+	height: 10px;
+	width: 90%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 95px;
+	border-radius: 50%;
+}
+.pikachu .head[data-v-06e768c5] {
+bottom: auto; 
+height: 120px;
+width: 120px;
+z-index: 3;
+}
+.pikachu .head .face[data-v-06e768c5]{
+width: 120px;
+height: 70px;
+top: auto;
+border-radius:  40px 40px 30px 30px; 
+z-index: 2;
+}
+.face .eye[data-v-06e768c5] {
+width: 14px;
+height: 14px;
+border-radius: 50%;
+bottom: auto;
+top: 28px;
+-webkit-animation: blink-data-v-06e768c5 4s infinite;
+}
+.eye.left[data-v-06e768c5] {
+right: auto;
+left: 32px;
+}
+.eye.right[data-v-06e768c5] {
+left: auto;
+right: 32px;
+}
+.face .mouth[data-v-06e768c5] {
+text-align: center;
+height: 10px;
+}
+.face .cachete[data-v-06e768c5] {
+width: 16px;
+height: 16px;
+border-radius: 50%;
+bottom: auto;
+top: 38px;
+background-color: #e64900;
+z-index: 9;
+}
+.cachete.left[data-v-06e768c5] {
+right: auto;
+left: 10px;
+}
+.cachete.right[data-v-06e768c5] {
+left: auto;
+right: 10px;
+}
+.pikachu .head .ears[data-v-06e768c5]{
+width: 20px;
+height: 90px;
+bottom: auto;
+border-radius: 50%;
+overflow: hidden;
+z-index: 1;
+}
+.ears.left[data-v-06e768c5]{
+right: auto; 
+left: 10px;
+}
+.ears.right[data-v-06e768c5]{
+left: auto; 
+right: 10px;
+}
+.ears .ears-inside[data-v-06e768c5]{
+top: auto; 
+height: 70px;
+width: 30px;
+border-radius: 50%;
+}
+.ears.right .ears-inside[data-v-06e768c5]{
+position: absolute; 
+	left: -50%;
+}
+.pikachu .body[data-v-06e768c5] {
+bottom: auto;
+top: 80px;
+height: 105px;
+width: 130px;
+border-radius: 80px 80px 40px 40px;
+overflow: hidden;
+z-index: 2;
+}
+.pikachu .body .paw[data-v-06e768c5]{
+bottom: auto; 
+top: 50px; 
+height: 15px; 
+width: 30px; 
+z-index: 9; 
+border-bottom: 1px solid #e0a100; 
+border-top: 1px solid #FFFFFF;
+}
+.pikachu .body .paw.left[data-v-06e768c5]{
+right: auto;
+left: 15px;
+border-radius: 0 50% 50% 0;
+}
+.pikachu .body .paw.right[data-v-06e768c5]{
+left: auto;
+right: 15px;
+border-radius: 50% 0 0 50%;
+}
+.pikachu .body .heart[data-v-06e768c5] {
+	width: 40px;
+	height: 40px;
+	bottom: auto;
+	top: 10px; 
+	z-index: 8;
+	animation:beat 0.45s infinite;
+	-webkit-animation:beat 0.45s infinite;
+}
+.pikachu .body .heart[data-v-06e768c5]:before,
+.pikachu .body .heart[data-v-06e768c5]:after {
+	position: absolute;
+	content: "";
+	left: 20px;
+	top: 30px;
+	width: 50%;
+	height: 100%;
+	background: #e64900;
+	-moz-border-radius: 20px 20px 0 0;
+	border-radius: 10px 10px 0 0;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+		-ms-transform-origin: 0 100%;
+		-o-transform-origin: 0 100%;
+			transform-origin: 0 100%;
+}
+.pikachu .body .heart[data-v-06e768c5]:after {
+	left: 0px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+	-webkit-transform-origin: 100% 100%;
+	-moz-transform-origin: 100% 100%;
+		-ms-transform-origin: 100% 100%;
+		-o-transform-origin: 100% 100%;
+			transform-origin :100% 100%;
+}
+.pikachu .leg[data-v-06e768c5] {
+z-index: 1; 
+bottom: auto;
+top: 172px;
+height: 20px;
+width: 30px;
+}
+.pikachu .leg.left[data-v-06e768c5] {
+right: auto; 
+left: 20px;
+border-radius: 80px 10px 80px 10px;
+}
+.pikachu .leg.right[data-v-06e768c5] {
+left: auto; 
+right: 20px;
+border-radius: 10px 80px 10px 80px;
+}
+.pikachu .tail[data-v-06e768c5] {
+z-index: 1;
+height: 40px; 
+width: 50px; 
+left:auto;
+bottom: auto; 
+top: 70px;
+border-radius: 10% 30%;
+}
+.signature[data-v-06e768c5] {
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	top: auto;
+}
+.signature p[data-v-06e768c5]{
+	text-align: center;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 0.85em;
+}
+.signature .much-heart[data-v-06e768c5]{
+	display: inline-block;
+	position: relative;
+	margin: 0 4px;
+	height: 10px;
+	width: 10px;
+	background: #AC1D3F;
+	border-radius: 4px;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.signature .much-heart[data-v-06e768c5]::before, 
+.signature .much-heart[data-v-06e768c5]::after {
+	display: block;
+	content: '';
+	position: absolute;
+	margin: auto;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background: #AC1D3F;
+	top: -4px;
+}
+.signature .much-heart[data-v-06e768c5]::after {
+	bottom: 0;
+	top: auto;
+	left: -4px;
+}
+.signature a[data-v-06e768c5] {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+@-webkit-keyframes blink-data-v-06e768c5/*Safari and Chrome*/ {
+0 {  height: 14px; top: 28px;}
+5% {  height: 2px; top: 34px;}
+10% {  height: 14px; top: 28px;}
+40% {  height: 14px; top: 28px;}
+50% {  height: 2px; top: 34px;}
+55% {  height: 14px; top: 28px;}
+100% {  height: 14px; top: 28px;}
+}
+
+
+
+.row {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.clickable {
+	cursor: pointer;
+}
+
+
+[v-cloak] {
+    display: none;
+}
+body  {
+    font-family:Meiryo, Arial,Verdana,Sans-Serif, Microsoft JhengHei; 
+    margin: auto auto;
+    -webkit-overflow-scrolling: touch;
+}
+.underline {
+    border-color: #f0f0f0;
+}
+
+
+/*# sourceMappingURL=script.bundle.css.map*/
