@@ -113,7 +113,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "d09214eb2d70b2498640";
+/******/ 	var hotCurrentHash = "c892b605a30c428fe339";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1291,7 +1291,7 @@ var render = function() {
             _c("img", {
               staticStyle: {
                 width: "80%",
-                height: "auto",
+                "min-height": "auto",
                 "max-width": "400px"
               },
               attrs: { src: "https://i.imgur.com/G29DAAq.png" }
