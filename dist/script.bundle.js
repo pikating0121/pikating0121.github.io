@@ -113,7 +113,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "91003c1596592c44ff35";
+/******/ 	var hotCurrentHash = "d96db1053f1c2991639f";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1150,9 +1150,14 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
 
-  mounted() {},
+  watch: {
+    play_music() {
+      if (this.play_music) {
+        document.getElementsByTagName("audio")[0].play();
+      }
+    }
 
-  methods: {}
+  }
 });
 
 /***/ }),
