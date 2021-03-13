@@ -113,7 +113,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "3a37cfa19a09f2d51f07";
+/******/ 	var hotCurrentHash = "be02e3a6066547a9c8df";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1150,15 +1150,13 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
 
-  watch: {
-    play_music() {
-      if (this.play_music) {
-        this.$nextTick(() => {
-          document.getElementsByTagName("audio")[0].play();
-        });
-      }
-    }
-
+  watch: {// play_music() {
+    // 	if (this.play_music) {
+    // 		this.$nextTick(() => {
+    // 			document.getElementsByTagName("audio")[0].play();
+    // 		});
+    // 	}
+    // }
   }
 });
 
