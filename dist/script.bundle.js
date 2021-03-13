@@ -113,7 +113,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "be02e3a6066547a9c8df";
+/******/ 	var hotCurrentHash = "83b488ca4dd613b1019b";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1592,7 +1592,7 @@ var render = function() {
         ? _c("audio", {
             staticClass: "mt-2",
             attrs: {
-              src: "/static/audios/簡單愛.mp3",
+              src: "/static/audios/簡單愛2.mp3",
               preload: "auto",
               autoplay: "",
               controls: ""
